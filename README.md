@@ -1,11 +1,11 @@
 Submarine Diagnostics – Power Consumption
-📌 Objetivo
+## 📌 Objetivo
 
 Este projeto resolve o desafio Submarine Diagnostics – Power Consumption, cujo objetivo é calcular o consumo de energia de um submarino a partir de um relatório de diagnóstico binário, seguindo regras bem definidas para extração das métricas.
 
 O foco da solução está em clareza de código, boa organização, testabilidade e extensibilidade, além da correta implementação do algoritmo proposto.
 
-🧠 Descrição da Solução
+## 🧠 Descrição da Solução
 
 A partir de um conjunto de números binários, a aplicação calcula:
 
@@ -17,7 +17,7 @@ Formada pelo bit menos comum em cada posição do relatório.
 
 O consumo de energia é obtido multiplicando os valores decimais das duas taxas.
 
-🏗 Estrutura da Solução
+## 🏗 Estrutura da Solução
 
 A solução está organizada em três projetos distintos, promovendo separação de responsabilidades:
 ```text
@@ -34,7 +34,7 @@ Core: regras de negócio, estratégias de cálculo e utilitários.
 
 Tests: validação automática do comportamento esperado.
 
-🧩 Arquitetura e Padrões Adotados
+## 🧩 Arquitetura e Padrões Adotados
 Strategy Pattern
 
 O Strategy Pattern foi utilizado para encapsular as regras de cálculo das taxas:
@@ -71,7 +71,7 @@ Testabilidade
 
 Conformidade com o princípio Dependency Inversion (SOLID)
 
-🛠 Tecnologias Utilizadas
+## 🛠 Tecnologias Utilizadas
 
 .NET 8
 
@@ -85,7 +85,7 @@ Programação Orientada a Objetos
 
 Padrões de Projeto
 
-🔍 Algoritmo (Visão Geral)
+## 🔍 Algoritmo (Visão Geral)
 
 Valida o relatório de diagnóstico
 
@@ -99,7 +99,7 @@ Converte os valores binários para decimal
 
 Calcula o consumo de energia
 
-✅ Testes
+## ✅ Testes
 
 O projeto de testes utiliza xUnit e valida:
 
@@ -121,7 +121,7 @@ Visual Studio (Test Explorer)
 
 CLI (.NET): dotnet test
 
-🚀 Execução
+## 🚀 Execução
 
 Defina o projeto Console como projeto de inicialização
 
@@ -129,7 +129,7 @@ Execute a aplicação
 
 O valor do consumo de energia será exibido no console
 
-🧩 Considerações Finais
+## 🧩 Considerações Finais
 
 Esta solução prioriza:
 
