@@ -21,10 +21,7 @@ O consumo de energia é obtido multiplicando os valores decimais das duas taxas.
 
 A solução está organizada em três projetos distintos, promovendo separação de responsabilidades:
 
-SubmarineDiagnostics
- ├── SubmarineDiagnostics.Console   // Aplicação Console (entry point)
- ├── SubmarineDiagnostics.Core      // Regras de negócio e domínio
- └── SubmarineDiagnostics.Tests     // Testes unitários (xUnit)
+<pre> ```text SubmarineDiagnostics ├── SubmarineDiagnostics.Console // Aplicação Console (entry point) ├── SubmarineDiagnostics.Core // Regras de negócio e domínio └── SubmarineDiagnostics.Tests // Testes unitários (xUnit) ``` </pre>
 
 Responsabilidades
 
