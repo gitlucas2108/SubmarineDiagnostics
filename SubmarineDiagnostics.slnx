@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="../../../../../../../../PROJETOS/SubmarineDiagnostics/SubmarineDiagnostics.Core/SubmarineDiagnostics.Core.csproj" />
+    <Project Path="../../../../../../../../PROJETOS/SubmarineDiagnostics/SubmarineDiagnostics/SubmarineDiagnostics.Console.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="../../../../../../../../PROJETOS/SubmarineDiagnostics/SubmarineDiagnostics.Tests/SubmarineDiagnostics.Tests.csproj" />
+  </Folder>
+</Solution>
